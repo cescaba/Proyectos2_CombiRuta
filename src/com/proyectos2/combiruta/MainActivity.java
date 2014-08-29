@@ -67,7 +67,7 @@ public class MainActivity extends FragmentActivity implements LocationListener{
             }
             locationManager.requestLocationUpdates(provider, 20000, 0, this);
         }
-		
+		//Prueba con de esta aplicacion :)
 	}
 	
 	
