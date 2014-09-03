@@ -15,7 +15,23 @@
         android:layout_below="@id/tv_location"
         class="com.google.android.gms.maps.SupportMapFragment" 
         android:name="com.proyectos2.combiruta.MainActivity"/>
-    	
-    
+
+    <EditText
+        android:id="@+id/txtsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/map"
+        android:layout_toRightOf="@+id/tv_location"
+        android:layout_toEndOf="@+id/tv_location"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/map"
+        android:layout_toRightOf="@+id/txtsearch"
+        android:layout_toEndOf="@+id/txtsearch"
+        android:text="Button" />
     
 </RelativeLayout>
